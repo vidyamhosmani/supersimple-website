@@ -1,0 +1,79 @@
+
+body {font-family: "Caveat", cursive;box-sizing: border-box; margin-left: auto;margin-right: auto;max-width: 1280px; padding: 0 15px;width: auto;
+overflow-x: hidden;}
+.badges-program{display: flex;max-width: 980px;margin: 5% auto;}
+.badges-program .badges-program-img-box img {width: 280px;}
+.badges-program .badges-program-content {text-align: center;padding: 56px 0 0 5%;}
+.badges-program .badges-program-content h1 {font-size: 30px;font-weight: 500; margin-bottom: 37px; padding: 3px 0 0 26px;}
+.badges-program .badges-program-content h2 {font-size: 30px;font-weight: 500; margin-bottom: 37px; padding: 3px 0 0 26px;}
+.badges-program .badges-program-content h1 span {color: #CE4115;font-weight: bold;}
+.badges-program .badges-program-content .sub-cont {font-size: 24px; padding: 0 0 0 31px;margin: 0; line-height: 40px; width: 579px;color: #000000;font-weight: 100;}
+.badges-program .badges-program-content img {width: 212px;margin-top: 45px;}
+.badge-game {max-width: 980px;margin: 6% auto;}
+.badge-game .grid-container {display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 30px 41px;  max-width: 980px; margin: 40px auto; }
+.grid-item h4{font-size: 22px;color: #000000;font-weight: bold;}
+.grid-item p{font-size: 20px;color: #232323;line-height: 23px;font-weight: 100;}
+.badge-game .grid-item img {max-width: 100%; height: auto; margin-bottom: 12px; }
+.badge-game h3{color: #000000;font-size: 35px;font-weight: bolder;text-align: center;margin: 0 auto 6% ;}
+.earn-badge {max-width: 980px;margin: 9% auto; text-align: center;}
+.earn-badge h3 {font-size: 30px;margin-bottom: 50px;}
+.earn-badge p {font-size: 22px;max-width: 800px;text-align: center;color: #232323; margin: 0 auto;line-height: 40px;}
+.earn-badge span{color: #CE4115;font-weight: bold;}
+.payment-cycle-program{max-width: 980px;margin: 8% auto 10%; text-align: center;}
+.payment-cycle-program h3 {font-size: 30px; margin-bottom: 50px;}
+.payment-cycle-program p {font-size: 22px;max-width: 800px;text-align: center;color: #232323;margin: 0 auto;line-height: 40px;}
+.payment-cycle-program span{color: #CE4115;font-weight: bold;}
+.image-one {width: 66px;}
+.image-two {width: 100px;}
+.image-five {width: 87px;}
+.grid-item-one-heading {margin-top: 32px;}
+.grid-item-six-heading {margin-top: 10px;}
+@media(max-width:1199px){
+.badges-program {padding: 0 3% 0 7%; margin: 8% auto;}
+.badge-game {padding: 6% 3% 0 7%; margin:0 auto;}
+.badge-game .grid-container {grid-gap: 30px 15px;}
+.badges-program .badges-program-content {padding: 56px 0 0 0;}
+}
+@media(max-width:992px){
+.badges-program {margin:8% 0;flex-direction: column;align-items: center;}
+.badges-program .badges-program-content {padding: 56px 0 0 0;}
+.badges-program .badges-program-content h2{padding: 0;}
+.badges-program .badges-program-content h1{padding: 3px 0 0 0;}
+.badges-program .badges-program-content .sub-cont{padding: 0;}
+.badge-game .grid-container {grid-template-columns: repeat(2, 1fr);}
+.badge-game {padding:0 5% 0 7%;}
+.badge-game h3 {margin: 0 auto 8%;}
+.earn-badge p br { display: none;}
+.payment-cycle-program p br{display: none;}
+.badges-program {padding: 0; margin: 8% auto;}
+}
+@media(max-width:768px){
+.badge-game .grid-container {grid-template-columns: repeat(1, 1fr);}
+.grid-item {text-align: center;}
+.badge-game h3 {margin: 11% auto;}
+.earn-badge {margin: 13% auto;}
+.earn-badge p {margin:0; padding: 0 15px 0 25px ;}
+.payment-cycle-program p {margin:0; padding:0 15px 0 25px; }
+.payment-cycle-program{margin: 8% auto 20%;}
+}
+@media(max-width:576px){
+.badge-game h3 {margin: 11% auto;}
+.earn-badge {margin: 13% auto;}
+.earn-badge p { padding: 0;}
+.payment-cycle-program p {padding: 0;}
+.payment-cycle-program{margin: 8% auto 15%;}
+.badges-program .badges-program-content {max-width: 100%;}
+.badges-program .badges-program-content .sub-cont{width: 100%;text-align: center;}
+.badges-program .badges-program-content .sub-cont br{display:  none;}
+}
+@media(max-width:480px){
+.badges-program .badges-program-content h1{font-size: 25px;}
+.badge-game h3{width: 100%;}
+.badge-game {margin: 0; padding: 6% 0;}
+.badge-game h3{font-size: 30px;}
+.badges-program {margin: 18% 0 0;}
+.badge-game h3 {margin: 0 auto 17%;}
+.badges-program .badges-program-content {padding: 56px 0 38px;}
+.earn-badge {margin: 0 auto;}
+.badge-game .grid-container{margin: 0 auto;}
+}
